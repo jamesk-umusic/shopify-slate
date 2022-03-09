@@ -19,7 +19,7 @@
     "url": "https://github.com/Shopify/slate.git"
   },
   "scripts": {
-    "prepare": "npm run build",
+    "prepare": "lerna run build",
     "test": "jest --silent",
     "lint": "eslint --max-warnings 10 ./ && stylelint './**/*.[s]css'",
     "lint:styles": "stylelint '**/*.[s]css'",
